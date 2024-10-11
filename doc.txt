@@ -1,0 +1,49 @@
+npx create-expo-app@latest --template blank@latest .
+
+//native wind
+// setup link "https://www.nativewind.dev/quick-starts/expo"
+
+
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+// class 4 : 
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+npx expo start -c
+
+//dir
+//app and src in root dir
+
+// rnfe
+r for reload
+
+
+// class no 5
+react reanimated
+npm install react-native-reanimated
+
+npm i expo@3.10.1
+npm i react-native-reanimated@3.10.1
+npm start --reset-cache
+
+
+// class no 6:
+
+navigation stack 
+navigation drawer
+navigation tab
+ 
+
+for icon "react native vector icon"
+react navigation
+
+tab view
+npm install react-native-tab-view
+npm install react-native-pager-view
+npx expo install react-native-pager-view
+usewindowdimwention();
+
+
+class no 7 : 
+drawer navigation
+npm install @react-navigation/drawer
+npm install react-native-gesture-handler

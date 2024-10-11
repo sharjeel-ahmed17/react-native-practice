@@ -3,6 +3,7 @@
     "name": "my-first-app",
     "slug": "my-first-app",
     "version": "1.0.0",
+    "scheme": "my-first-app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,6 +23,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
