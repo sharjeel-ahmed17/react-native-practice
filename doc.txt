@@ -50,3 +50,4 @@ npm install react-native-gesture-handler
 
 class no 8 : 
 expo dynamic routuing
+uselocalSearchParams() form expo router
