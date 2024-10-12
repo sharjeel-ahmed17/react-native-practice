@@ -11,7 +11,7 @@ const FirstTab = () => {
             className="flex-1 justify-center items-center bg-white"
         >
             <Entypo name='home' size={50} color={"green"} />
-            <Text className="">first tabn content</Text>
+            <Text className="">first tab content</Text>
         </Animated.View>
     )
 }

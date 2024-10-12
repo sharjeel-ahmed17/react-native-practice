@@ -42,8 +42,43 @@ const index = () => {
             >
                 <Text className="text-white text-center">Go to Tab Screen</Text>
             </Pressable>
+            <Pressable
+                className="bg-indigo-600 p-4 rounded-md"
+                onPress={() => router.push('/userinfo')}
+            >
+                <Text className="text-white text-center">Go to user screen</Text>
+            </Pressable>
         </Animated.View>
     )
 }
 
-export default index
+export default index;
+
+
+// import { View, Text, Image, Pressable } from 'react-native'
+// import React from 'react'
+// import { Link } from 'expo-router'
+
+// const Index = () => {
+//     return (
+//         <View className="flex-1 justify-center items-center">
+
+//             <Image
+//                 source={require('../assets/images/whatsapp.png')}
+//                 style={{ width: 100, height: 100 }}
+//             />
+
+//             <Text className="font-['outfit-bold'] text-3xl mt-2">WhatsApp</Text>
+
+//             <Link href="/about" asChild>
+//                 <Pressable>
+
+//                     <Text className="mt-4 text-2xl">Next Screen</Text>
+
+//                 </Pressable>
+//             </Link>
+//         </View>
+//     )
+// }
+
+// export default Index
