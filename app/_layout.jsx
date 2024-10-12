@@ -4,7 +4,13 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { Drawer } from 'expo-router/drawer';
 import Entypo from "react-native-vector-icons/Entypo";
 import AntDesign from "react-native-vector-icons/AntDesign";
+import { useFonts } from "expo-font"
 const Layout = () => {
+    useFonts({
+        'outfit': require('../assets/fonts/Outfit-Regular.ttf'),
+        'outfit-bold': require('../assets/fonts/Outfit-Bold.ttf'),
+        'outfit-medium': require('../assets/fonts/Outfit-Medium.ttf'),
+    })
     return (
         <GestureHandlerRootView className="flex-1">
             <Drawer>

@@ -47,3 +47,6 @@ class no 7 :
 drawer navigation
 npm install @react-navigation/drawer
 npm install react-native-gesture-handler
+
+class no 8 : 
+expo dynamic routuing
