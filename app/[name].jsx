@@ -1,14 +1,25 @@
 import { View, Text } from 'react-native'
-import React from 'react'
-import { useLocalSearchParams } from 'expo-router'
+import React, { useEffect } from 'react'
+import { useLocalSearchParams, useNavigation } from 'expo-router'
 
 const DynamicScreen = () => {
     const { name } = useLocalSearchParams();
+    const navigation = useNavigation();
+    useEffect(() => {
+        navigation.setOptions({ title: "User login screen" });
+
+        return () => {
+
+        }
+    }, []);
     return (
-        <View>
-            <Text>DynamicScreen</Text>
+
+        <View className="flex-1 justify-center items-center">
+
+            <Text className='mb-8'>DynamicScreen</Text>
             <View>
-                <Text>Welcome to {name}</Text>
+                <Text className="text-2xl font-semibold">Welcome to {name}</Text>
+
             </View>
         </View>
     )

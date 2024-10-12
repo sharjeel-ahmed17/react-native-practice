@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import React, { useState } from 'react'
-import { Pressable, TextInput } from 'react-native-gesture-handler'
+import { Pressable, TextInput } from 'react-native';
 import { useRouter } from 'expo-router';
 
 const Userinfo = () => {
