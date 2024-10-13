@@ -48,6 +48,12 @@ const index = () => {
             >
                 <Text className="text-white text-center">Go to user screen</Text>
             </Pressable>
+            <Pressable
+                className="bg-indigo-600 p-4 rounded-md"
+                onPress={() => router.push('/profile')}
+            >
+                <Text className="text-white text-center">go to profile</Text>
+            </Pressable>
         </Animated.View>
     )
 }

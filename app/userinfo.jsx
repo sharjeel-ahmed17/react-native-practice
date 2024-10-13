@@ -11,23 +11,24 @@ const Userinfo = () => {
         if (uesrName) {
 
             router.push(`/${uesrName}`);
+            setName('')
         }
     }
     return (
         <View className="flex-1 justify-center items-center">
-            <Text>Userinfo</Text>
-            <View>
+            <Text className="mb-7 text-2xl font-thin ">User info</Text>
+            <View className="w-[300px]">
                 <TextInput
                     placeholder='enter your name'
                     value={name}
 
                     onChangeText={setName}
-                    className="border border-green-700 rounded-xl"
+                    className="border border-green-700 rounded-xl w-full p-4 mb-3"
                 />
                 <Pressable
                     onPress={handleNavigation}
                 >
-                    <Text className="text-xl w-full p-4 bg-yellow-500">Go</Text>
+                    <Text className="text-2xl w-full p-4 bg-yellow-500 text-center text-white">Go</Text>
                 </Pressable>
             </View>
         </View>

@@ -3,7 +3,7 @@ import React from 'react'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { Drawer } from 'expo-router/drawer';
 import Entypo from "react-native-vector-icons/Entypo";
-import AntDesign from "react-native-vector-icons/AntDesign";
+import Fontisto from "react-native-vector-icons/Fontisto";
 import { useFonts } from "expo-font"
 const Layout = () => {
     useFonts({
@@ -42,7 +42,7 @@ const Layout = () => {
                         drawerLabel: "Settings",
                         title: "Tab Screen",
                         drawerIcon: ({ color }) => (
-                            <AntDesign name='setting
+                            <Fontisto name='settings
 ' size={24} color={color} />
                         )
                     }}

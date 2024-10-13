@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native'
+import { View, Text, Pressable } from 'react-native'
 import React, { useEffect } from 'react'
-import { useLocalSearchParams, useNavigation } from 'expo-router'
+import { useLocalSearchParams, useNavigation, useRouter } from 'expo-router'
 
 const DynamicScreen = () => {
     const { name } = useLocalSearchParams();
     const navigation = useNavigation();
+    // const router = useRouter();
     useEffect(() => {
         navigation.setOptions({ title: "User login screen" });
 
@@ -21,6 +22,11 @@ const DynamicScreen = () => {
                 <Text className="text-2xl font-semibold">Welcome to {name}</Text>
 
             </View>
+            {/* <Pressable
+                onPress={router.back()}
+            >
+                <Text className="mt-7 bg-red-400 p-4 text-center">go back</Text>
+            </Pressable> */}
         </View>
     )
 }
