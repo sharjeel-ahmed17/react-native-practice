@@ -1,6 +1,14 @@
+class no 1 : 
+introduction react natice 
+react cli vs react native
+
+class no 2 : 
+installation old version package
 npx create-expo-app@latest --template blank@latest .
+//class no 3 : 
 
 //native wind
+
 // setup link "https://www.nativewind.dev/quick-starts/expo"
 
 
@@ -51,3 +59,27 @@ npm install react-native-gesture-handler
 class no 8 : 
 expo dynamic routuing
 uselocalSearchParams() form expo router
+
+class no 9 : 
+nested route concept
+
+// example 
+
+index.jsx
+_layout.jsx
+tabs
+    index.jsx
+    _layout.jsx
+profile
+        index.jsx
+        _layout.jsx
+        tabs
+        settings
+                index.jsx
+
+
+class 10 : 
+form handling
+
+react hook form for state managment 
+yup for validation

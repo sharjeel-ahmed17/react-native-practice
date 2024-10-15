@@ -31,6 +31,13 @@ const index = () => {
                 isDrawerOpen ? <Text>Drawer is open</Text> : <Text>Drawer is closed</Text>
 
             }
+
+            <Pressable
+                className="bg-brown-600 p-4 rounded-md"
+                onPress={() => router.push('/rejister')}
+            >
+                <Text className="text-green-400 text-2xl text-center">Create an account</Text>
+            </Pressable>
             <Pressable
                 onPress={() => router.push('/about')}
             >
@@ -54,6 +61,13 @@ const index = () => {
             >
                 <Text className="text-white text-center">go to profile</Text>
             </Pressable>
+            <Pressable
+                className="bg-brown-600 p-4 rounded-md"
+                onPress={() => router.push('/ui')}
+            >
+                <Text className="text-white text-center">go to ui screen</Text>
+            </Pressable>
+
         </Animated.View>
     )
 }
